@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex use</title>
+    <style>
+        .login-container{
+            display: flex;
+            justify-content: center;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+        }
+        .login-form input,button{
+            font-size: 1.3em;
+            margin-top: 15px;
+            border-top: 1px solid;
+            padding-left: 10px;
+            border-radius: 8px;
+        }
+        .login-form button{
+            background-color: salmon;
+            color: whitesmoke;
+            font-size: 700;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5em;
+            margin-right: 15px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href=""> Home</a>
+            <a href="">Products</a>
+            <a href="">addres</a>
+            <a href="">about us</a>
+            </span>
+           <span>
+                <a href="   "><i class="fas fa-users"></i></a>
+                <a href="   "><i class="fas fa-sign-in-alt"></i></a>
+                <a href=""><i class="fab fa-accusoft"></i></i></a>
+           </span>
+        </nav>
+    </header>
+    <section class="login-container">
+        <form action="" class="login-form">
+            <h2>login</h2>
+            <input type="email" name="email" id="" placeholder="your email">
+            <input type="password" name="password" id="" placeholder="you password">
+            <button type="submit">Login</button>
+        </form>
+    </section>
+    
+</body>
+</html>
